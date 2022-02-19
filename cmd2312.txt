@@ -1,0 +1,14 @@
+    1  cd DAC0921/Java/Web/JSTLTest/
+    2  vi src/CustomerBean.java 
+    3  rm -r ClassicWebApp/WEB-INF/classes/shopping/
+    4  . /opt/glassfish5/setenv.sh 
+    5  javac -d ClassicWebApp/WEB-INF/classes/ src/CustomerBean.java 
+    6  touch ClassicWebApp/.reload
+    7  vi ClassicWebApp/customer.jsp
+    8  cp ClassicWebApp/customer.jsp ClassicWebApp/invoice.jsp
+    9  vi ClassicWebApp/invoice.jsp 
+   10  vi src/CustomerBean.java 
+   11  vi ClassicWebApp/invoice.jsp 
+   12  vi ClassicWebApp/customer.jsp 
+   13  vi ClassicWebApp/invoice.jsp 
+   14  history >> ../../cmd2312.txt
